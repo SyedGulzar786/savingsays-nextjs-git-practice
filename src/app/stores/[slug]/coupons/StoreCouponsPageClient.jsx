@@ -115,13 +115,13 @@ export default function StoreCouponsPageClient({ store, initialCoupons }) {
                   <div className="container">
                     <div className="row bg-white py-5 rounded d-flex ">
                       <div className="col-lg-3 col-sm-12 ">
-                        <img
+                        {/* <img
                           alt="Banila Co logo"
                           className="rounded-4 upper-section-img  border border-secondary me-4"
                           src={store?.media?.thumb ?? 'https://upload.wikimedia.org/wikipedia/commons/0/0a/No-image-available.png'}
                           srcSet={store?.media?.srcSet}
                           
-                        />
+                        /> */}
                       </div>
                       <div className="col-lg-9 col-sm-12 ms-0 ">
                         <h2 className="fw-bold ">
